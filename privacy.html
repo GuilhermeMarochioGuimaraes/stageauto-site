@@ -1,56 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Privacy Policy – StageAuto</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — StageAuto</title>
+  <style>
+    :root { --border:#e6e6e6; --muted:#666; --link:#2a66ff; }
+    body { font-family: Arial, Helvetica, sans-serif; margin:0; background:#fff; color:#111; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 60px; }
+    header { display:flex; align-items:center; justify-content:space-between; padding: 14px 0 24px; }
+    header .brand { font-size: 40px; font-weight: 700; letter-spacing:-1px; }
+    header nav a { color: var(--link); text-decoration:none; margin-left: 10px; font-size: 14px; }
+    header nav a:hover { text-decoration: underline; }
+    .card { border:1px solid var(--border); border-radius: 12px; padding: 26px; }
+    .back { display:inline-block; margin-bottom: 14px; color: var(--link); text-decoration:none; font-size: 14px; }
+    .back:hover { text-decoration: underline; }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    h2 { margin: 22px 0 8px; font-size: 20px; }
+    p, li { line-height: 1.6; }
+    .meta { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    footer { text-align:center; margin-top: 28px; color: var(--muted); font-size: 13px; }
+    footer a { color: var(--link); text-decoration:none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
+  <div class="wrap">
+    <header>
+      <div class="brand">StageAuto</div>
+      <nav>
+        <a href="pricing.html">Pricing</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="refund.html">Refunds</a>
+      </nav>
+    </header>
 
-<h1>Privacy Policy</h1>
+    <div class="card">
+      <a class="back" href="index.html">← Back</a>
 
-<p>
-StageAuto respects your privacy.
-This Privacy Policy explains how information is handled when using the software.
-</p>
+      <h1>Privacy Policy</h1>
+      <div class="meta">
+        Contact: <b>stageauto.app@gmail.com</b>
+      </div>
 
-<h2>Information Collection</h2>
+      <p>
+        StageAuto respects your privacy. This Privacy Policy explains how information is handled when using the Software.
+      </p>
 
-<p>
-StageAuto does not collect or store personal data from your infrastructure files.
-</p>
+      <h2>1. Information Collection</h2>
+      <p>
+        StageAuto does not collect or store personal data from your infrastructure files.
+        Terraform and infrastructure files analyzed by StageAuto remain on your local machine.
+      </p>
 
-<p>
-License validation requires an internet connection to verify license status,
-but no sensitive infrastructure data is transmitted or stored.
-</p>
+      <h2>2. License Validation</h2>
+      <p>
+        License validation requires an internet connection to verify license status.
+        The validation request sends only license-related data (e.g., license key and device identifier) to the license server.
+        No Terraform content is uploaded.
+      </p>
 
-<h2>Data Usage</h2>
+      <h2>3. Payments</h2>
+      <p>
+        Payments and billing are processed by Paddle (Merchant of Record). StageAuto does not store payment card information.
+      </p>
 
-<p>
-Any files analyzed by StageAuto remain on your local machine.
-StageAuto does not upload or retain your Terraform or infrastructure files.
-</p>
+      <h2>4. Contact</h2>
+      <p>
+        For privacy-related questions, contact: <b>stageauto.app@gmail.com</b>
+      </p>
+    </div>
 
-<h2>Third Parties</h2>
-
-<p>
-Payments and billing are processed securely by Paddle, our authorized payment provider.
-StageAuto does not store payment information.
-</p>
-
-<h2>Contact</h2>
-
-<p>
-For privacy-related questions, contact:
-<br>
-<strong>stageauto.app@gmail.com</strong>
-</p>
-
-<footer style="margin-top:40px; padding:20px; text-align:center; font-size:14px;">
-  <a href="/terms.html">Terms of Service</a> |
-  <a href="/privacy.html">Privacy Policy</a> |
-  <a href="/refund.html">Refund Policy</a>
-</footer>
-
+    <footer>
+      <a href="terms.html">Terms of Service</a> |
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="refund.html">Refund Policy</a>
+    </footer>
+  </div>
 </body>
 </html>
